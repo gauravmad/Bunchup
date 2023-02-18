@@ -6,9 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Bunchup Contact Page</title>
 </head>
 <body>
-    
+    <div class="container flex flex-col md:flex-row align-middle items-center justify-evenly w-[80vw] m-auto my-20 p-2">
+        <div class="part1 flex flex-col justify-evenly text-gray-50 w-full sm:w-2/5">
+            <h1 class="text-[#FFFF33] text-3xl md:text-[2rem] lg:text-4xl w-4/5 my-3 font-semibold">Contact Us</h1>
+            <p class="text-lg my-2 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellendus nulla sint illum, excepturi iure?</p>
+            <div class="adress my-8 flex">
+                <i class="ri-map-pin-2-fill text-[#fff333] md:text-5xl text-4xl"></i>
+                <div class="px-3">
+                    <h1 class="text-xl font-bold">Mumbai</h1>
+                    <h1 class="text-lg">Maharashtra</h1>
+                </div>
+            </div>
+            <div class="email my-8 flex justify-start align-middle items-center">
+                <i class="ri-mail-fill text-[#fff333] md:text-5xl text-4xl"></i>
+                <div class="px-3">
+                    <h1 class="text-xl font-bold">Email</h1>
+                    <h1 class="text-lg">bunchup@gmail.com</h1>
+                </div>
+            </div>
+            <div class="contact my-8 flex justify-start align-middle items-center">
+                <i class="ri-phone-fill text-[#fff333] md:text-5xl text-4xl"></i>
+                <div class="px-3">
+                    <h1 class="text-xl font-bold">Phone</h1>
+                    <h1 class="text-lg">+91 94041 31807</h1>
+                </div>
+            </div>
+
+        </div>
+        <div id="contact" class="part2 text-white p-3 rounded-3xl w-full md:w-3/6">
+            <div class="contact">
+                <h1 class="text-[#FFFF33] text-3xl md:text-[1.7rem] lg:text-4xl my-2 font-semibold text-center">Get Into Touch with Us</h1>
+                <input type="text" class="w-full text-black p-2 my-3 px-2 rounded-3xl" placeholder="Name">
+                <input type="email" class="w-full text-black p-2 my-3 px-2 rounded-3xl" placeholder="Email">
+                <input type="number" class="w-full text-black p-2 my-3 px-2 rounded-3xl" placeholder="Phone Number">
+                <textarea  class="rounded-3xl  text-black w-full h-40 p-2 my-3 px-2" placeholder="Your Message"></textarea>
+                <button class="bg-[#FFFF33] text-black w-full p-2 my-3 rounded-3xl font-semibold text-lg">Send Message<i class="ri-send-plane-fill align-middle mx-1"></i></button>
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
 </body>
 </html>
