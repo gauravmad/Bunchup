@@ -10,3 +10,18 @@ body{
     box-shadow: 20px 20px 1000px 20px rgba(255, 255, 255, 0.5);
     background: rgba(255, 255, 255, 0.1);
 }
+#icon1:hover{
+    cursor: pointer;
+    color: #0077b5;
+}
+#icon2:hover{
+    cursor: pointer;
+    color: #d62976;
+}
+#icon3:hover{
+    cursor: pointer;
+    color:white;
+}
+#card{
+    position: relative;
+}
